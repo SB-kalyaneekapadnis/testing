@@ -1,0 +1,55 @@
+title: User
+type: object
+description: ''
+examples:
+  - id: 142
+    firstName: Alice
+    lastName: Smith
+    email: alice.smith@gmail.com
+    dateOfBirth: '1997-10-31'
+    emailVerified: true
+    signUpDate: '2019-08-24'
+properties:
+  id:
+    type: integer
+    description: Unique identifier for the given user.
+    x-stoplight:
+      id: hprnvbikq89nd
+  firstName:
+    type: string
+    x-stoplight:
+      id: rjdxc6kte9w8l
+  lastName:
+    type: string
+    x-stoplight:
+      id: 3zq7nmdav7q1p
+  email:
+    type: string
+    format: email
+    x-stoplight:
+      id: 5bh643igtzuvq
+  dateOfBirth:
+    type: string
+    format: date
+    example: '1997-10-31'
+    x-stoplight:
+      id: bcsk75phjyh1c
+  emailVerified:
+    type: boolean
+    description: Set to true if the user's email has been verified.
+    x-stoplight:
+      id: 2n68zsojvdawp
+  createDate:
+    type: string
+    format: date
+    description: The date that the user was created.
+    x-stoplight:
+      id: 49egazie3ura5
+required:
+  - id
+  - firstName
+  - lastName
+  - email
+  - emailVerified
+x-stoplight:
+  id: qhiok6ves0cvc
