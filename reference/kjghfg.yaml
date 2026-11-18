@@ -4,6 +4,7 @@ x-stoplight:
 info:
   title: kjghfg
   version: '1.0'
+  summary: ''
 servers:
   - url: 'http://localhost:3000'
 paths:

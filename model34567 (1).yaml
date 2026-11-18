@@ -1,0 +1,23 @@
+title: model34567
+x-stoplight:
+  id: 3m04ezxzsy7y4
+type: object
+description: |
+  model456789
+required:
+  - kjhdgf
+properties:
+  id:
+    type: string
+    x-stoplight:
+      id: jegr1ldavlxd8
+  name456789:
+    type: string
+    x-stoplight:
+      id: 7det4erj9efeq
+    description: testing
+  kjhdgf:
+    type: integer
+    x-stoplight:
+      id: 79sybw4a0evvj
+    format: int32
