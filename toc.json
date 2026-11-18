@@ -1,0 +1,28 @@
+{
+  "collapseTableOfContents": false,
+  "items": [
+    {
+      "type": "item",
+      "title": "ljkhgf",
+      "uri": "/docs/ljkhgf.md"
+    },
+    {
+      "type": "divider",
+      "title": "APIS"
+    },
+    {
+      "type": "item",
+      "title": "kjghfg",
+      "uri": "/reference/kjghfg.yaml"
+    },
+    {
+      "type": "divider",
+      "title": "Schemas"
+    },
+    {
+      "type": "item",
+      "title": "model34567",
+      "uri": "/model34567 (1).yaml"
+    }
+  ]
+}
